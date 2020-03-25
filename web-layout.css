@@ -1,0 +1,130 @@
+/* reset button */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+}
+
+body p {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 21vh;
+    background-color: rgb(5, 200, 158);
+    align-content: center;
+    justify-content: center;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 12px;
+    color: #fff
+}
+
+header p:first-child {
+    font-size: 26pt;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+nav {
+    height: 4vh;
+    display: flex;
+    background-color: #202020;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin: auto 20px;
+    color: #fff;
+    font-size: 1vw;
+}
+
+.page-body {
+    display: flex;
+    min-height: 60vh;
+}
+
+aside {
+    width: 25vw;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-right: 1.2px solid rgb(235, 235, 235)
+}
+
+aside * {
+    margin: 7px 0px 20px 0px;
+}
+
+aside > img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+aside .image-stack img {
+    width: 100%;
+    height: auto
+}
+
+.content-area {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-area article:nth-child(2n+0) {
+    margin: 2% 0%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+article > * {
+    margin: 7px auto 20px 0px;
+}
+
+article h2 {
+    text-transform: uppercase;
+}
+
+.article-date {
+    background-color: rgb(35, 204, 246);
+    color: #fff;
+    padding: 6px 8px;
+    font-size: 10pt;
+    border-radius: 4px;
+}
+
+.article-image {
+    /* background-color: #000; */
+    height: 25vh;
+    width: 100%;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+footer {
+    display: flex;
+    height: 10vh;
+    border-top: 1.2px solid rgb(235, 235, 235);
+    justify-content: center;
+}
+
+footer p {
+    margin: auto 30px;
+    color: #a7a7a7;
+    font-size: 11pt
+    /* max-width: 32px;
+    height: auto */
+}
